@@ -6,5 +6,7 @@
   home.homeDirectory = "/home/koralle";
   home.stateVersion = "24.05";
 
-  home.packages = with pkgs; [];
+  home.packages = with pkgs; [
+    fish
+  ];
 }
