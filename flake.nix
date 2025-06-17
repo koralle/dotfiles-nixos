@@ -28,7 +28,13 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/desktop/configuration.nix
-	];
+          home-manager.nixosModules.home-manager
+          {
+            home-manager.users.koralle = import ./users/koralle/home.nix;
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+          }
+	      ];
       };
     };
   };
