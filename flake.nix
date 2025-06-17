@@ -26,7 +26,9 @@
     nixosConfigurations = {
       koralle = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        modules = [];
+        modules = [
+          ./hosts/desktop/configuration.nix
+	];
       };
     };
   };
