@@ -1,0 +1,7 @@
+[tools]
+# Bun
+bun = 'latest'
+
+# Deno
+deno = '2.3.4'
+
