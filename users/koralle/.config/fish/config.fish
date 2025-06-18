@@ -9,3 +9,8 @@ if status is-interactive
 else
   mise activate fish --shims | source
 end
+
+# Initialize zoxide
+# https://github.com/ajeetdsouza/zoxide
+zoxide init fish | source
+

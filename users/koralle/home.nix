@@ -25,6 +25,9 @@
 
     # https://github.com/phiresky/ripgrep-all
     ripgrep-all
+
+    # https://github.com/sharkdp/bat
+    bat
   ];
 
   programs.neovim = {
