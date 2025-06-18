@@ -22,6 +22,9 @@
 
     # https://github.com/BurntSushi/ripgrep
     ripgrep
+
+    # https://github.com/phiresky/ripgrep-all
+    ripgrep-all
   ];
 
   programs.neovim = {
