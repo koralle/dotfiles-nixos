@@ -5,3 +5,6 @@ bun = 'latest'
 # Deno
 deno = '2.3.4'
 
+# Golang
+go = 'latest'
+
