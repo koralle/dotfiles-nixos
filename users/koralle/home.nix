@@ -1,4 +1,4 @@
-{ config, pkgs, ...}:
+{ config, pkgs, inputs, ...}:
 {
   imports = [];
  
@@ -17,4 +17,9 @@
     # https://mise.jdx.dev
     mise
   ];
+
+  programs.neovim = {
+    enable = true;
+    package = inputs.neovim-nightly-overlay.packages.${pkgs.system}.default;
+  };
 }

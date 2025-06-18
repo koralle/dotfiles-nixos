@@ -14,11 +14,18 @@
     nur = {
       url = "github:nix-community/NUR";
     };
+
+    neovim-nightly-overlay = {
+      url = "github:nix-community/neovim-nightly-overlay";
+    };
   };
 
-  outputs = { nixpkgs, home-manager, nur, ... }@inputs: 
+  outputs = { nixpkgs, home-manager, nur, neovim-nightly-overlay, ... }@inputs: 
   let
-    overlays = [ nur.overlays.default ];
+    overlays = [ 
+      nur.overlays.default 
+      neovim-nightly-overlay.overlays.default
+    ];
     pkgs = import nixpkgs { inherit overlays; };
   in {
     formatter = pkgs.nixfmt-rfc-style;
@@ -33,6 +40,9 @@
             home-manager.users.koralle = import ./users/koralle/home.nix;
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
+            home-manager.extraSpecialArgs = {
+              inherit inputs;
+            };
           }
 	      ];
       };
