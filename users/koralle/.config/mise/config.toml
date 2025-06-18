@@ -17,6 +17,7 @@ python = 'latest'
 # Node.js
 'npm:npm' = 'latest'
 'npm:pnpm' = 'latest'
+'npm:@anthropic-ai/claude-code' = 'latest'
 node = ['lts', '23', '24']
 
 [settings]
