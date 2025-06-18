@@ -15,3 +15,4 @@ vim.g.loaded_tar = 1
 
 require("configs")
 require("configs.lazy")
+require("lsp")
