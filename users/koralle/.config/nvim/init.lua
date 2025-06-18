@@ -16,3 +16,6 @@ vim.g.loaded_tar = 1
 require("configs")
 require("configs.lazy")
 require("lsp")
+
+-- Prepend mise shims to PATH
+vim.env.PATH = vim.env.HOME .. "/.local/share/mise/shims:" .. vim.env.PATH
