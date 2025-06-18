@@ -8,3 +8,6 @@ deno = '2.3.4'
 # Golang
 go = 'latest'
 
+# Rust
+rust = 'nightly'
+
