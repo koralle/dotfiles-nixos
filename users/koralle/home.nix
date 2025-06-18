@@ -14,6 +14,9 @@
   home.packages = with pkgs; [
     fish
     
+    # https://mise.jdx.dev
+    mise
+
     # https://starship.rs
     starship
   ];

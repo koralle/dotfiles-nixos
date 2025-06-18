@@ -1,0 +1,19 @@
+[tools]
+# Bun
+bun = 'latest'
+
+# Deno
+deno = '2.3.4'
+
+# Golang
+go = 'latest'
+
+# Rust
+rust = 'nightly'
+
+# Python
+python = 'latest'
+
+[settings]
+python.compile = false
+
