@@ -31,6 +31,9 @@
 
     # https://github.com/sharkdp/fd
     fd
+
+    # https://github.com/zellij-org/zellij
+    zellij
   ];
 
   programs.neovim = {
