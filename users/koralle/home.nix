@@ -16,6 +16,9 @@
     
     # https://mise.jdx.dev
     mise
+
+    # https://starship.rs
+    starship
   ];
 
   programs.neovim = {
