@@ -28,6 +28,9 @@
 
     # https://github.com/sharkdp/bat
     bat
+
+    # https://github.com/sharkdp/fd
+    fd
   ];
 
   programs.neovim = {
