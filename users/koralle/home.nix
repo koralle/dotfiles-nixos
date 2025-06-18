@@ -34,6 +34,9 @@
 
     # https://github.com/zellij-org/zellij
     zellij
+
+    # https://github.com/ajeetdsouza/zoxide
+    zoxide
   ];
 
   programs.neovim = {

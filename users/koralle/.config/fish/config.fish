@@ -14,3 +14,6 @@ end
 # https://github.com/ajeetdsouza/zoxide
 zoxide init fish | source
 
+# Initialize zoxide
+# https://github.com/ajeetdsouza/zoxide
+zoxide init fish | source
