@@ -15,6 +15,7 @@ rust = 'nightly'
 python = 'latest'
 
 # Node.js
+'npm:npm' = 'latest'
 node = ['lts', '23', '24']
 
 [settings]
