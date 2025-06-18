@@ -19,6 +19,9 @@
 
     # https://starship.rs
     starship
+
+    # https://github.com/BurntSushi/ripgrep
+    ripgrep
   ];
 
   programs.neovim = {
