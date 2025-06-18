@@ -1,3 +1,5 @@
+set -Ux XDG_CONFIG_HOME $HOME/.config
+
 # Initialize Starship
 # https://starship.rs/ja-JP/guide/
 starship init fish | source
