@@ -16,6 +16,7 @@ python = 'latest'
 
 # Node.js
 'npm:npm' = 'latest'
+'npm:pnpm' = 'latest'
 node = ['lts', '23', '24']
 
 [settings]
