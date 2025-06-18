@@ -37,6 +37,9 @@
 
     # https://github.com/ajeetdsouza/zoxide
     zoxide
+
+    # https://github.com/eza-community/eza
+    eza
   ];
 
   programs.neovim = {
