@@ -143,6 +143,12 @@
     };
   };
 
+  # Enable Fail2ban
+  # https://nixos.wiki/wiki/Fail2ban 
+  services.fail2ban = {
+    enable = true;
+  };
+
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
