@@ -40,6 +40,9 @@
 
     # https://github.com/eza-community/eza
     eza
+
+    # https://github.com/wezterm/wezterm
+    wezterm
   ];
 
   programs.neovim = {
