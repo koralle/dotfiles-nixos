@@ -163,6 +163,13 @@
     noto-fonts
     noto-fonts-cjk-sans
     noto-fonts-emoji
+
+    moralerspace
+    moralerspace-nf
+    moralerspace-hw
+    moralerspace-hwnf
+    moralerspace-jpdoc
+    moralerspace-hwjpdoc
   ];
 
   # This value determines the NixOS release from which the default
