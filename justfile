@@ -1,6 +1,6 @@
 switch:
-  sudo nixos-rebuild switch --flake .#koralle
+  nixos-rebuild switch --flake .#koralle
 
 tailscale-up:
-  sudo tailscale up --advertise-exit-node
+  tailscale up --advertise-exit-node
 
