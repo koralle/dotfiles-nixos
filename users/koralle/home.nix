@@ -43,6 +43,9 @@
 
     # https://github.com/wezterm/wezterm
     wezterm
+
+    # https://github.com/ghostty-org/ghostty
+    ghostty
   ];
 
   programs.neovim = {
