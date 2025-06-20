@@ -119,6 +119,8 @@
      just
      tig
 
+     google-chrome
+
      # Tailscale
      # https://tailscale.com
      tailscale
