@@ -124,6 +124,9 @@
      tailscale
   ];
 
+  # enable NVIDIA Driver
+  services.xserver.videoDrivers = [ "nvidia" ];
+
   services.tailscale = {
     enable = true;
     extraUpFlags = [
