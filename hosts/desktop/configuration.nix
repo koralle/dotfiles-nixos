@@ -46,6 +46,12 @@
     LC_TIME = "en_US.UTF-8";
   };
 
+  i18n.inputMethod = {
+    enable = true;
+    type = "fcitx5";
+    fcitx5.addons = with pkgs; [ fcitx5-mozc fcitx5-gtk ];
+  };
+
   # Enable the GNOME Desktop Environment.
   services.displayManager.gdm = {
     enable = true;
